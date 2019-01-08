@@ -1,0 +1,9 @@
+node_modules
+saved-model
+.nyc_output
+.vscode
+.env
+.users
+.DS_Store
+dist
+pid/*

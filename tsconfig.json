@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "downlevelIteration": true,
+      "rootDir": "src",
+      "outDir": "dist",
+      "typeRoots": [
+        "./@types",
+        "./node_modules/@types"
+      ],
+      "lib": [
+        "dom",
+        "es2016"
+      ],
+      "esModuleInterop": true
+    },
+    "includes": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist/**/*"
+    ]
+  }
+  
